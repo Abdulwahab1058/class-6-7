@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(14, 14, 14);
+    padding: 100px;
+}
+#container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 100px 200px 200px 100px;
+}
+.items{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(241, 248, 240);
+    border: 5px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px; 
+
+    /* border-radius option hai jo lagao */
+
+
+}
+.apple{
+    grid-column-start: 1;
+    grid-column-end:7;
+    background-color: gold;
+}
+.banana{
+    grid-row-start: 2;
+    grid-row-end: 7;
+    background-color: palegreen;
+
+}
+.banana{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.orange{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: orange;
+}
+.mango{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(213, 245, 149);
+}
+.peach{
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.you{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.kiwi{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #8EE53F;
+} 
